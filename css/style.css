@@ -979,6 +979,11 @@ input::placeholder, textarea::placeholder {
     fill: transparent;
 }
 
+.modal-check-link {
+    color: var(--iris-color);
+}
+
+
 .form-consent {
     margin-bottom: 24px;
 }
