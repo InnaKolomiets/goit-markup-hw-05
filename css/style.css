@@ -294,7 +294,6 @@ body {
 
 .team-icons {
     fill: var(--cloud-color);
-    
 }
 
 
@@ -555,16 +554,30 @@ body {
     margin-left: 80px;
 }
 
+.footer-social-media {
+    margin-bottom: 16px;
+}
+.footer-button-styling {
+    display: flex;
+    gap:24px;
+}
+
 .footer-e-mail {
     margin-top: 16px;
-    background-color: #2E2F42;
+    background-color: transparent;
     border-radius: 4px;
-    border: 1px solid var(--white, #FFF);
+    border: 1px solid var(--white-color);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     width: 264px;
     height: 40px;
     flex-shrink: 0;
     color: var(--white-color);
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
 }
 
 .footer-e-mail::placeholder {
@@ -587,12 +600,20 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    color: var(--white, #FFF);
+    color: var(--white-color);
     background: var(--iris-color);
     border: none;
     margin-left: 24px;
     gap: 16px;
+    min-width: 165px;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
+
 
 
 .visually-hidden {
@@ -988,7 +1009,6 @@ input::placeholder, textarea::placeholder {
     justify-content: center;
     fill: transparent;
 }
-
 
 .form-input-checkbox:checked ~ .modal-consent .text-consent {
     background-color: var(--ocean-color);
