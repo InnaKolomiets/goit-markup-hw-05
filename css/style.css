@@ -296,6 +296,9 @@ body {
     fill: var(--cloud-color);
 }
 
+.subscribe-button .team-icons {
+    margin-bottom: 16px;
+}
 
 .customers .socials-icons {
     width: 104px;
