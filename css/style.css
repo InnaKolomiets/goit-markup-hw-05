@@ -942,7 +942,8 @@ input::placeholder, textarea::placeholder {
     position: relative;
 }
 
-.form-input:hover {
+.form-input:hover, 
+.form-input:focus {
     border-color: var(--iris-color);
 }
 
@@ -987,11 +988,9 @@ input::placeholder, textarea::placeholder {
     line-height: 1.17; 
     letter-spacing: 0.04em;
     margin-top: 16px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
 }
-.modal-consent .text-consent {
+
+.text-consent {
     display: inline-flex;
     color: var(--iris-color);
     font-family: Roboto;
