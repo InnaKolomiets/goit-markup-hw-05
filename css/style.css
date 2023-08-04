@@ -949,10 +949,13 @@ input::placeholder, textarea::placeholder {
     fill: var(--iris-color);
 }
 
-.form-group .form-input {
+.form-group > .form-input {
+    width: 100%;
+}
+
+.form-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
     height: 40px;
-    width: 100%;
     border-radius: 4px;
     background-color: transparent;
     padding-left: 38px;
@@ -961,9 +964,12 @@ input::placeholder, textarea::placeholder {
 
 }
 
+.form-group > .form-icon {
+    top: 50%;
+}
+
 .form-icon {
     position: absolute;
-    top: 50%;
     left: 16px;
     width: 18px;
     height: 24px;
