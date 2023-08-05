@@ -945,7 +945,7 @@ input::placeholder, textarea::placeholder {
 }
 
 .form-input {
-    position: absolute;
+    position:absolute;
     width: 100%;
     border: 1px solid rgba(46, 47, 66, 0.4);
     height: 40px;
@@ -959,6 +959,8 @@ input::placeholder, textarea::placeholder {
 
 .form-icon {
     position: absolute;
+    top: 50%;
+    left: 16px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
