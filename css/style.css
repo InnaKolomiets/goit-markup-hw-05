@@ -945,6 +945,7 @@ input::placeholder, textarea::placeholder {
 }
 
 .form-input {
+    position: absolute;
     width: 100%;
     border: 1px solid rgba(46, 47, 66, 0.4);
     height: 40px;
