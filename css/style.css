@@ -958,8 +958,6 @@ input::placeholder, textarea::placeholder {
 
 .form-icon {
     position: absolute;
-    top: 50%;
-    left: 16px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
