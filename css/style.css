@@ -922,7 +922,6 @@ input::placeholder, textarea::placeholder {
 .form-checkbox {
     width: 16px;
     height: 16px;
-    accent-color: var(--iris-color);
 }
 
 .form-group {
@@ -973,13 +972,11 @@ input::placeholder, textarea::placeholder {
     line-height: 1.17; 
     letter-spacing: 0.04em;
     margin-top: 16px;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
 }
 
 .text-consent {
     display: inline-flex;
+    margin-right: 8px;
     color: var(--iris-color);
     font-family: Roboto;
     font-size: 12px;
@@ -996,6 +993,7 @@ input::placeholder, textarea::placeholder {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    vertical-align: sub;
 }
 
 .form-input-checkbox:checked ~ .modal-consent .text-consent {
