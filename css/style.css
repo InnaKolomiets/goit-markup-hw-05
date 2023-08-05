@@ -838,11 +838,6 @@ body {
     margin-bottom: 16px;
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-}
-
 .form-container {
     margin-bottom: 8px;
 }
@@ -949,11 +944,8 @@ input::placeholder, textarea::placeholder {
     fill: var(--iris-color);
 }
 
-.form-group > .form-input {
-    width: 100%;
-}
-
 .form-input {
+    width: 100%;
     border: 1px solid rgba(46, 47, 66, 0.4);
     height: 40px;
     border-radius: 4px;
